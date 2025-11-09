@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>飯店資訊</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <header class="hero"><h1>飯店資訊</h1></header>
+  <main class="wrap">
+    <section class="card">
+      <h2 class="card-title">Hotel #{{ hotel_id }}</h2>
+      <p><strong>名稱：</strong>{{ hotel.name }}</p>
+      <p><strong>城市：</strong>{{ hotel.city }}</p>
+      <p><strong>星級：</strong>{{ hotel.stars }}</p>
+      <p><strong>價格：</strong>{{ hotel.price }}</p>
+      <p><a href="/">回首頁</a></p>
+    </section>
+  </main>
+</body>
+</html>
